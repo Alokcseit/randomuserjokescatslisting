@@ -31,13 +31,13 @@ if(loading){
     <div>
        <div className='c1'>
          <Link to="/">
-         <i class="fa-solid fa-arrow-left"></i>
+         <i className="fa-solid fa-arrow-left"></i>
          </Link>
          <div>
             <h3>Profile Overview</h3>
          </div>
          <div className='refresh' onClick={fetchRandomUser} >
-          <i class="fa-solid fa-arrows-rotate"></i>
+          <i className="fa-solid fa-arrows-rotate"></i>
          </div>
          
       </div>
@@ -54,11 +54,11 @@ if(loading){
       <br></br>
       <div className="locationandcall">
         <a className="location"href={`https://maps.google.com/?q=${user.location.coordinates.latitude},${user.location.coordinates.longitude}`} target="_blank" rel="noopener noreferrer">
-           <i class="fa-solid fa-location-dot"></i>Location
+           <i className="fa-solid fa-location-dot"></i>Location
            
         </a>
         <a className="call" href={`tel:${user.cell}`}>
-        <i class="fa-solid fa-phone-volume"></i>Callme</a>
+        <i className="fa-solid fa-phone-volume"></i>Callme</a>
       </div>
       <br></br>
       <div className='c3'>
