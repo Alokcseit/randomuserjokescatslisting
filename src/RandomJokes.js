@@ -1,9 +1,9 @@
 import React from 'react'
-
+import "./Jokes.css"
 function RandomJokes() {
   return (
-    <div>
-      jokes
+    <div className='randomjokes'>
+      hi
     </div>
   )
 }

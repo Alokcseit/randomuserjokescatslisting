@@ -1,0 +1,14 @@
+.randomjokes{
+width: 1280px;
+height: 832px;
+top: 973px;
+left: -505px;
+gap: 0px;
+opacity: 0px;
+
+background-image: url("/public/tweet.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
