@@ -1,12 +1,12 @@
 
 import { useState, useEffect } from 'react';
 import axios from 'axios';
-import "./RandomUser.css";
+import "./User.css"
 import { Link } from 'react-router-dom';
 
 
 function User() {
-    const [user, setUser] = useState(null);
+    const [user, setUser] = useState();
     const [loading, setLoading] = useState(true);
     const fetchRandomUser = async () => {
       setLoading(true);
