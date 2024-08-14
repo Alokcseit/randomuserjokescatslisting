@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-// import "./User.css"
+import "./User.css"
 import User from "./User";
 const RandomUser = () => {
  
