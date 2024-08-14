@@ -1,0 +1,55 @@
+.cats-list {
+    background-image: url("/public/cat.png");
+    background-size: cover;
+    width: 80%; 
+    height: 1000px;
+    z-index: -1;
+}
+.scrolling-container {
+    display: flex;
+    overflow-x:none;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    z-index: 1; 
+}
+  
+  .cat-card {
+    width: 375px;
+    height: 700px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    z-index: 1;
+    background-color: #ffff;
+  }
+  
+  .pagination-controls {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .pagination-controls button {
+    margin: 0 10px;
+    padding: 10px 20px;
+  }
+  .cat{
+    width: 375px;
+    height: 325px;
+    border-radius: 18px 18px 0px 0px;
+    z-index: 1;
+    
+  }  
+  .cat-name{
+    z-index: 1;
+  }
+
+
+  .chaicode2{
+    width: 60px;
+    height: 62px;
+    margin-left: 94%;
+    border-radius: 12px 12px 12px 12px;
+      opacity: 1; 
+  }

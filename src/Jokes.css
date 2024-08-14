@@ -1,14 +1,115 @@
 .randomjokes{
 width: 1280px;
 height: 832px;
-top: 973px;
-left: -505px;
-gap: 0px;
-opacity: 0px;
-
 background-image: url("/public/tweet.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-
+background-size: cover;
+background-repeat: no-repeat;
+position: absolute;
+}
+.rectangle28{
+width: 600px;
+height: 350px;
+margin-top: 267px;
+margin-left: 339px;
+border-radius: 12px 12px 12px 12px;
+background: #000000;
+box-shadow: 2px 2px 4px 0px #00000040;
+}
+.chaicode1{
+    width: 60px;
+    height: 62px;
+    position: absolute;
+    bottom: 10px; 
+    right: 10px; 
+    border-radius: 12px 0px 0px 0px;
+    opacity: 1;
+}
+.jokes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    margin-left: 20px;
 }
 
+.imagelogo{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 1px 1px 4px 0px #00000040;
+
+  }
+  .name1 {
+    color: #FFFFFF;
+    font-size: 20px;
+  }
+  .tweetname{
+   color: #FFFFFF;
+   font-size: 14px;
+  }
+  .imagename{
+    display: flex;
+    flex-direction: column;
+  }
+  .imagelogoandname{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 300px;
+    margin-left: 16px;
+    
+  }
+  .menu{
+    color: #FFFFFF;
+    width: 50px;
+  }
+  .imagename1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .jokes1{
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-left: 30px;
+    font-style: normal;
+    
+    width: 550px;
+    height: 80px;
+    font-weight:normal;
+  }
+  .timestamp{
+    color: #cbdbe3;
+    font-size: 13px;
+    margin-left: 30px;
+    font-style: normal;
+  }
+  .views{
+    color: #c0cbd1;
+    font-size: 13px;
+    margin-left: 30px;
+    font-style: normal;
+  }
+  .dateandviews{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-left: 25px;
+    align-items: center;
+    
+  }
+  .comment{
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 14px;
+    margin-left: 10px;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: #393737 1px solid;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom:#393737 1px solid ;
+  }

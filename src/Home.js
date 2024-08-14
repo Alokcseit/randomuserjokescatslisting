@@ -4,7 +4,7 @@ function Home() {
   return (
     <>
     <div>select a page</div>
-     <div>
+     <div style={{display: 'flex',gap: '10px'}}>
       <Link to="/cats">Cats</Link>
       <Link to="/jokes">Jokes</Link>
       <Link to="/users">Users</Link>

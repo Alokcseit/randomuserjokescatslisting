@@ -6,7 +6,9 @@ const RandomUser = () => {
 
   return (
     <div className='group10'>
-      
+        <div  style={{height: '50px',fontSize: '30px',color:"black",backgroundColor:"white"}}>
+        <i class="fa-regular fa-face-smile"></i>Random Jokes
+        </div>
         <div className='random'>
         Random user
           <div className='rectangle11'>
