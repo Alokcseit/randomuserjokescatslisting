@@ -6,7 +6,9 @@ const RandomUser = () => {
 
   return (
     <div className='group10'>
+      
         <div className='random'>
+        Random user
           <div className='rectangle11'>
              <User/>
              <div>
