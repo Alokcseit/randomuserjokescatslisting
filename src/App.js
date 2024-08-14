@@ -1,4 +1,4 @@
-import { BrowserRouter as Router , Routes, Route } from "react-router-dom";
+import { HashRouter as Router , Routes, Route } from "react-router-dom";
 import CatsListing from "./CatsListing";
 import RandomJokes from "./RandomJokes";
 import RandomUser from "./RandomUser";
