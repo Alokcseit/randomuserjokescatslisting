@@ -4,7 +4,11 @@ import {Link} from "react-router-dom";
 import Jokes from "./Jokes";
 function RandomJokes() {
   return (
-    <div className='randomjokes'>
+    <div>
+      <div  style={{height: '50px',fontSize: '30px',color:"black",backgroundColor:"white"}}>
+      <i class="fa-regular fa-face-smile"></i> Random Jokes
+      </div>
+      <div className='randomjokes'> 
       Random Jokes
       <div className="rectangle28">
              <div>
@@ -14,6 +18,7 @@ function RandomJokes() {
                 </Link>
              </div>
       </div>
+    </div>
     </div>
   )
 }
