@@ -1,41 +1,30 @@
-/* .random{
+.random{
     width:100%;
     height: 832px;
-    top: -345px;
-    left: -505px;
-    gap: 0px;
-    opacity: 0px;
     background: #00000080;
-   
-    } */
-    .group10{
-        width: 1280px;
-    height: auto;
-    top: -230px;
-    left: -8px;
-    gap: 0px;
-    opacity: 0px;
     }
-    /* .rectangle11{
+    .group10{
+    width: 1280px;
+    height: auto;
+    }
+    .rectangle11{
     width: 365px;
     height: 660px;
     top:100px;
     margin-left: 461px;
-    gap: 0px;
     border-radius: 12px 0px 0px 0px;
     border: 8px 0px 0px 0px;
-    opacity: 0px;
     border: 8px solid #FFFFFF;
     background: #B6B3F3;
     border-radius: 10px;
     position: relative;
-    } */
+    }
     .chaicode {
         width: 60px;
       height: 62px;
       position: absolute;
-      bottom: 10px; /* Distance from the bottom of .rectangle11 */
-      right: 10px;  /* Distance from the right side of .rectangle11 */
+      bottom: 10px; 
+      right: 10px; 
       border-radius: 12px 0px 0px 0px;
-      opacity: 1; /* Set to 1 to make it visible */
+      opacity: 1; 
       }
