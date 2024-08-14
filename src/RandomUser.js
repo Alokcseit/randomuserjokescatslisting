@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
-import "./RandomUser.css"
+import "./Random.css"
 import User from "./User";
 const RandomUser = () => {
  
 
   return (
     <div className='group10'>
-        <div className='random-user'>
+        <div className='random'>
           <div className='rectangle11'>
              <User/>
              <div>
